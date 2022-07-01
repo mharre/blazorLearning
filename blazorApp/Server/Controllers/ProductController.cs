@@ -9,9 +9,9 @@ namespace blazorApp.Server.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-	    private static List<Products> products = new List<Products>
+	    private static List<Product> products = new List<Product>
 	    {
-	    	new Products
+	    	new Product
 	    	{
 	    		id = 1,
 	    		title = "The Hitchhiker's Guide to the Galaxy",
@@ -19,7 +19,7 @@ namespace blazorApp.Server.Controllers
 	    		imageUrl ="https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
 	    		price = 9.99m
 	    	},
-	    	new Products
+	    	new Product
 	    	{
 	    		id = 2,
 	    		title = "Ready Player One",
@@ -27,7 +27,7 @@ namespace blazorApp.Server.Controllers
 	    		imageUrl = "https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg",
 	    		price = 7.99m
 	    	},
-	    	new Products
+	    	new Product
 	    	{
 	    		id = 3,
 	    		title = "Nineteen Eighty-Nine",
@@ -38,7 +38,7 @@ namespace blazorApp.Server.Controllers
 	    };
 
         [HttpGet]
-		public async Task<ActionResult<List<Products>>> GetProduct()
+		public async Task<ActionResult<List<Product>>> GetProduct()
         {
 			return Ok(products);
         }

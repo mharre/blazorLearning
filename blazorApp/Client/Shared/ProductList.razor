@@ -23,11 +23,11 @@
 </ul>
 
 @code {
-	private static List<Products> products = new List<Products>();
+	private static List<Product> products = new List<Product>();
 
 	protected override async Task OnInitializedAsync()
 	{
-		var result = await Http.GetFromJsonAsync<List<Products>>("api/product");
+		var result = await Http.GetFromJsonAsync<List<Product>>("api/product");
 		if(result != null)
 		{
 			products = result;
