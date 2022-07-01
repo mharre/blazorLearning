@@ -45,3 +45,8 @@ C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\obj\Debug\net6.0\refi
 C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\obj\Debug\net6.0\blazorApp.Server.pdb
 C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\obj\Debug\net6.0\blazorApp.Server.genruntimeconfig.cache
 C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\obj\Debug\net6.0\ref\blazorApp.Server.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Server\obj\Debug\net6.0\blazorApp.Server.MvcApplicationPartsAssemblyInfo.cs
