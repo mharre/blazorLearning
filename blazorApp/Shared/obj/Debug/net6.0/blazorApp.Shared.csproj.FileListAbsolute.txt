@@ -1,0 +1,12 @@
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\bin\Debug\net6.0\blazorApp.Shared.deps.json
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\bin\Debug\net6.0\blazorApp.Shared.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\bin\Debug\net6.0\blazorApp.Shared.pdb
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\blazorApp.Shared.csproj.AssemblyReference.cache
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\blazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\blazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\blazorApp.Shared.AssemblyInfo.cs
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\blazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\blazorApp.Shared.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\refint\blazorApp.Shared.dll
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\blazorApp.Shared.pdb
+C:\Users\Matthew\Desktop\blazor\blazorApp\blazorApp\Shared\obj\Debug\net6.0\ref\blazorApp.Shared.dll
