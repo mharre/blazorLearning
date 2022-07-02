@@ -5,6 +5,7 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
+.vs
 # Click-Once directory
 publish/
 
