@@ -1,0 +1,46 @@
+﻿@page "/product/{id:int}"
+@inject IProductService ProductService
+
+@if(product == null)
+{
+	<span>@message</span>
+} else
+{
+	<div class="media">
+		<div class="media-img-wrapper mr-2">
+			<img class="media-img" src="@product.imageUrl" alt="@product.title" />
+		</div>
+		<div class="media-body">
+			<h2 class="mb-0">@product.title</h2>
+			<p>@product.description</p>
+			<h4 class="price">
+				$@product.price
+			</h4>
+		</div>
+	</div>
+}
+
+@code {
+	private Product? product = null;
+	private string message = string.Empty;
+
+	[Parameter]
+	public int id { get; set; }
+
+	protected override async Task OnParametersSetAsync()
+	{
+		message = "Loading products...";
+
+		var result = await ProductService.GetProduct(id);
+		// has to load index page then this, if we acces this
+		// page directly or reload it won't work because the
+		// product list is empty
+		if (!result.success)
+		{
+			message = result.message;
+		}else
+		{
+			product = result.data;
+		}
+	}
+}

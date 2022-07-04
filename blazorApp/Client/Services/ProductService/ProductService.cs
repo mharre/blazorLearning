@@ -13,7 +13,18 @@
         }
         public List<Product> Products { get; set; } = new List<Product>();
 
-        public async Task GetProducts()
+		public async Task<ServiceResponse<Product>> GetProduct(int productId)
+		{
+            var result = await
+                this.http.GetFromJsonAsync<ServiceResponse<Product>>($"api/product/{productId}");
+            return result;
+            /* why return service response here?
+             * we will use this method in our productdetails instead of the find method
+             * so we can check for success flag etc
+             */
+		}
+
+		public async Task GetProducts()
         {
             var result = await
                 this.http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/product");

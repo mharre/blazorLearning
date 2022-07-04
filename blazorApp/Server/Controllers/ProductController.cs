@@ -22,5 +22,14 @@ namespace blazorApp.Server.Controllers
             var result = await this.productService.GetProductsAsync();
 			return Ok(result);
         }
+
+        [HttpGet("{productId}")]
+        // same as [Route("{productId}")]
+		public async Task<ActionResult<ServiceResponse<Product>>> GetProduct(int productId)
+        {
+            var result = await this.productService.GetProductAsync(productId);
+            //method changed to the one we created in our IProdServ / ProdServ
+			return Ok(result);
+        }
     }
 }
